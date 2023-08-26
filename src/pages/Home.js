@@ -20,7 +20,7 @@ export default function Home() {
         setloading(false)
       }
       catch (error) {
-        console.log(error.data.message)
+        console.log(error)
       }
     }
 
